@@ -1,0 +1,36 @@
+.left{
+	position: fixed;
+	left: 80px;
+	top: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.right{
+	position: fixed;
+    background: #fff;
+	border: 2px solid;
+	border-radius: 50px;
+    margin-top: 70px;
+	height: 300px;
+	width: 700px;
+	color: #44355E;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    margin-left: 100px;
+}
+    
+	
+img{
+	width: 350px;
+	height: 350px;
+    margin-bottom: 1000px;
+    margin-right: 600px;
+    position: relative;
+    margin-left: 70px;
+}
+h4{
+    font-size: 100px;
+    text-align: right;
+}

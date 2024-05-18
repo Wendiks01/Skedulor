@@ -1,0 +1,32 @@
+.left{
+	position: fixed;
+	left: 80px;
+	top: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.right{
+	position: fixed;
+	right: 80px;
+	top: 50px;
+	background: #fff;
+	border: 2px solid;
+	border-radius: 197px;
+	height: 420px;
+	width: 950px;
+	color: #44355E;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+a{
+	position: fixed;
+	bottom: 80px;
+	right: 200px;
+	color: #44355E;
+}
+img{
+	width: 420px;
+	height: 420px;
+}

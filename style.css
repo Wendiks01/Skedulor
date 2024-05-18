@@ -1,0 +1,449 @@
+/* styles.css */
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	width: 90%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: #5a4b81;
+    color: white;
+    padding: 20px;
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    overflow-y: auto;
+}
+
+.sidebar h2 {
+    font-size: 1.0rem;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 15px;
+    text-align: left;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+	font-size: 20px;
+}
+
+.sidebar ul li:hover {
+    background-color: #4a3b61;
+}
+
+/* Center the buttons horizontally */
+.sidebar ul {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: left;
+    border-bottom: 5px solid rgb(202, 196, 196);
+}
+
+/* Bottom Menu */
+.bottom-menu {
+    
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    width: 100%;
+	
+}
+
+.bottom-menu ul {
+    list-style-type: none;
+    padding: 0;
+    border:2px #ddd;
+}
+
+
+.bottom-menu ul li {
+
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+	text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+/* Main Content */
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+.main-content h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.main-content ul li{
+    font-size:30px ;
+}
+
+
+/* Buttons */
+button {
+    background-color: #5a4b81;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+	width: 200px;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+.button{
+    background-color: #5a4b81;
+    color: white;
+    border: none;
+    padding: 30px 30px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 300px;
+    height: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+button:hover {
+    background-color: #4a3b61;
+}
+button .text1{
+    background-color: #5a4b81;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    text-align: left;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+}
+th {
+    background-color: #4a3b61;
+    color: white;
+    padding: 5px;
+    text-align: left;
+    width: 400px;
+}
+
+td, button{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+tr, td{
+    
+    padding: 5px; 
+    text-align: left;
+   
+}
+.department {
+    background-color: #dcdcdc;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+
+.logout {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* View button style */
+.view {
+    background-color: #3c1c3f;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 250px;
+    padding: 10px 10px;
+    height: 40px;
+    border-radius: 20px;
+    display: inline-flex;
+    justify-content: center;
+    width: 100px;
+    
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.schedule {
+    width: 80%;
+    border-collapse: separate;
+    border-radius: 10px;
+}
+
+.schedule th, .schedule td {
+    border: 1px solid #666;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    width: 300px;
+}
+
+/* PS Note styles */
+.ps-note {
+    font-style: italic;
+    color: #888;
+}
+
+/* Edit button styles */
+.edit-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    height: 30px;
+   margin-left: auto;
+   margin-right: 200px;
+    float: right;
+}
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.add-student {
+    background-color: #6a1b9a;
+    color: #ffffff;
+    border: none;
+    padding: 20px 10px;
+    cursor: pointer;
+    display: inline-flex;
+    margin-left: auto;
+    border-radius: 50px;
+    float: inline-end;
+    position: relative;
+    text-align: center;
+    margin-right: 100px;
+    width: 100px;
+}
+.add-lect {
+    background-color: #6a1b9a;
+    color: #ffffff;
+    border: none;
+    padding: 20px 10px;
+    cursor: pointer;
+    
+    margin-left: auto;
+    border-radius: 50px;
+    float: inline-end;
+    
+    text-align: center;
+    margin-right: 210px;
+    width: 100px;
+}
+
+.student-list {
+    margin-top: 20px;
+}
+
+.student {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.update {
+    background-color: #ece910;
+    margin-left: 250px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 50px;
+    float: inline-end;
+
+}
+.add-courses {
+    background-color: 654897;
+    color: white;
+    border: none;
+    padding: 5px 5px;
+    cursor: pointer;
+    border-radius: 50px;
+    float: right;
+    margin-right: 90px;
+}
+
+.course-list {
+    margin-top: 20px;
+}
+
+.course-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #AE98C9;
+}
+
+.yellow-bg {
+    background-color: #F9E66E;
+}
+
+.purple-bg {
+    background-color: #A74AA8;
+    color: white;
+}
+
+.update, .delete {
+    background-color: #268d26;
+    border: none;
+    cursor: pointer;
+    color: #6A0572;
+    margin-left: 10px;
+}
+.delete{
+    background-color: #FF0000;
+    border-radius: 50px;
+    padding: 20px;
+}
+.re-generate  {
+    background-color: #654897;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.save{
+    background-color: #654897;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    float: right;
+    border-radius: 50px;
+}
+
+.timetable {
+    width: 100%;
+    border-collapse: separate;
+    border-radius: 20px;
+}
+
+.timetable th, .timetable td {
+    border: 1px solid #666;
+    padding: 20px;
+    padding-top: 30px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+.timetable th {
+    background-color: #44355E;
+    color: white;
+}
+
+.timetable td {
+    background-color: #AE98C9;
+    color: white;
+}
+.timetable th, .timetable tr{
+    margin-top: 10px;
+}
+.student-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    background-image: url('OIG2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    margin-right: 10px;
+    width: 100px;
+    height: 200px;
+}
+
+.student-details {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.student-details p {
+    margin-bottom: 10px;
+}
+.update-btn {
+    background-color: rgb(23, 88, 10);
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+    cursor: pointer; 
+    height: 30px;
+}
+
+.delete-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer; 
+    height: 30px;
+    margin-left: 300px;
+}
+input[type="text"],
+input[type="password"],
+input[type="file"],
+input[type="time"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+
+
+@media screen and (max-width: 700px) {
+    .sidebar {
+        width: 100%;
+        position: static;
+    }
+    .main-content {
+        margin-left: 0;
+    }
+}

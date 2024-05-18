@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header{
+	position: fixed;
+	top: 0;
+	color: #fff;
+	background: #44355E;
+	width: 100vw;
+	height: 70px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.right{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;	
+}
+.right p{
+	margin: 20px;
+}
+#logo{
+	width: 100px;
+	height: 70px;
+}
+.body{
+	margin-top: 80px;
+}
+.txt{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 10px 100px 10px 100px;
+}
+h1{
+	color: #AE98C9;
+	margin: 30px 40px;
+}
+p{
+	margin-left: 60px;
+}
+a{
+	text-decoration: none;
+	color: #AE98C9;
+}
+.timetable{
+	margin: auto;
+	background: #fff;
+	border: 2px solid;
+	border-radius: 50px;
+	height: 420px;
+	width: 1000px;
+	padding: 20px;
+	color: #44355E;
+	display: flex;
+	flex-direction: column;
+}
+.rows{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.date{
+	background: #44355E;
+	color: #fff;
+	border-radius: 10px;
+	width: 140px;
+	height: 40px;
+}
+.time, .course{
+	color: #fff;
+	border-radius: 10px;
+	width: 140px;
+	height: 120px;
+	margin-top: 10px;
+}
+.time{
+	background: #796798;
+}
+.course{
+	background: #AE98C9;
+}
+.date p{
+	margin: auto;
+	padding: 10px;
+}
+.buttons{
+	margin-bottom: 80px;
+	display: flex;
+	flex-direction: row;
+	justify-content: right;
+}
+footer{
+	position: fixed;
+	bottom: 0;
+	color: #fff;
+	background: #44355E;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100vw;
+	height: 70px;
+	align-items: center;
+}
+button{
+	padding: 10px 20px 10px 20px;
+	margin: 30px;
+	border: 0;
+	color: #fff;
+	background: #C66AFF;
+	border-radius: 30px;
+}
